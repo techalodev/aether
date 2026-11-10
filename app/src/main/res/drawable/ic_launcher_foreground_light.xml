@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="60"
+        android:rotation="-18">
+        <!-- orbit, back half -->
+        <path
+            android:pathData="M26,60 A28,9.5 0 0,1 82,60"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeColor="#664A35C9" />
+    </group>
+    <!-- the "A" peak -->
+    <path
+        android:pathData="M37,77 L54,31 L71,77"
+        android:strokeWidth="8.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#FF3B2A9E" />
+    <group
+        android:pivotX="54"
+        android:pivotY="60"
+        android:rotation="-18">
+        <!-- orbit, front half -->
+        <path
+            android:pathData="M26,60 A28,9.5 0 0,0 82,60"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeColor="#FF7C5CFF" />
+        <!-- satellite -->
+        <path
+            android:fillColor="#FF3B2A9E"
+            android:pathData="M68,68.2m-3.6,0a3.6,3.6 0 1,1 7.2,0a3.6,3.6 0 1,1 -7.2,0" />
+    </group>
+</vector>

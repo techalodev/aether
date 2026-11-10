@@ -1,0 +1,23 @@
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Xray core is downloaded at build time
+/app/libs/
+
+# Signing material — never commit
+/keystore/
+*.jks
+*.keystore
+keystore.properties
+
+# Local release output
+/dist/
